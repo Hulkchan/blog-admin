@@ -1,0 +1,6 @@
+build/*.js
+config/*.js
+src/assets
+src/utils/request.js
+src/router/index.js
+node_modules
