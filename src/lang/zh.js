@@ -1,6 +1,10 @@
 export default {
     route: {
         dashboard: '首页',
+        websiteSetting: '基础设置',
+        addcontent: '文章发布',
+        contentManage: '文章管理',
+        tagManage: '标签管理',
         introduction: '简述',
         documentation: '文档',
         guide: '引导页',

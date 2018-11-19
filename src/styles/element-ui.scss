@@ -81,3 +81,21 @@
         display: block;
     }
 }
+
+// 上传图片组件
+.edit-drag__upload .el-upload--text{
+    display: block;
+}
+.edit-drag__upload .el-upload-dragger{
+    width: 100%;
+}
+.edit-drag__upload.has_imgs .el-upload--text{
+    display: inline-block;
+}
+.edit-drag__upload.has_imgs .el-upload-dragger{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+    color: #999
+} 

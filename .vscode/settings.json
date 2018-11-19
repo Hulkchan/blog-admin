@@ -1,2 +1,40 @@
 {
+    "window.zoomLevel": 2,
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": false,
+    "workbench.colorTheme": "One Dark Pro Monokai Darker",
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "vue": "html"
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    "vetur.format.defaultFormatter.html": "prettier",
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".vue"
+        ]
+    },
+    "prettier.disableLanguages": [
+        
+    ],
+    "prettier.tabWidth": 4,
+    "editor.snippetSuggestions": "top"
 }

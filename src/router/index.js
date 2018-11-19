@@ -52,6 +52,58 @@ export const constantRouterMap = [
                 meta: { title: 'dashboard', icon: 'dashboard', noCache: true }
             }
         ]
+    },
+    {
+        path: '',
+        component: Layout,
+        redirect: 'setting',
+        children: [
+            {
+                path: 'setting',
+                component: () => import('@/views/websiteSetting'),
+                name: 'websiteSetting',
+                meta: { title: 'websiteSetting', icon: 'dashboard', noCache: true }
+            }
+        ]
+    },
+    {
+        path: '',
+        component: Layout,
+        redirect: 'addcontent',
+        children: [
+            {
+                path: 'addcontent',
+                component: () => import('@/views/addcontent'),
+                name: 'addcontent',
+                meta: { title: 'addcontent', icon: 'dashboard', noCache: true }
+            }
+        ]
+    },
+    {
+        path: '',
+        component: Layout,
+        redirect: 'contentManage',
+        children: [
+            {
+                path: 'contentManage',
+                component: () => import('@/views/contentManage'),
+                name: 'contentManage',
+                meta: { title: 'contentManage', icon: 'dashboard', noCache: true }
+            }
+        ]
+    },
+    {
+        path: '',
+        component: Layout,
+        redirect: 'tagManage',
+        children: [
+            {
+                path: 'tagManage',
+                component: () => import('@/views/tagManage'),
+                name: 'tagManage',
+                meta: { title: 'tagManage', icon: 'dashboard', noCache: true }
+            }
+        ]
     }
 ]
 
